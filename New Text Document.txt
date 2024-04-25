@@ -1,0 +1,6 @@
+    protected $table = 'students';
+    protected $primaryKey = 'id';
+    public $incrementing=true;
+    protected $keyType='int';
+    public $timestmps = true;
+    protected $dateFormate='U';
